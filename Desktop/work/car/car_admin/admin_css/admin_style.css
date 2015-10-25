@@ -1,0 +1,199 @@
+body{
+    background:#303030;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*login page style*/
+.admin-title{
+    width: 800px;
+    margin: 70px auto;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login-background{
+    background:url("../../images/home-bg.jpg;") no-repeat;
+    height: 300px;
+}
+
+.admin-title span{
+    font-size: 35px;
+    font-weight: bold;
+    color: #28a7e9;
+}
+
+.login-form{
+    width: 400px;
+    margin: 150px auto;
+}
+
+.form-input, .form-input input{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #28a7e9;
+}
+
+.form-input input{
+    border: 1px solid #ffffff;
+    width: 250px;
+}
+
+.form-button button{
+    background: #28a7e9;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+    width: 400px;;
+}
+
+.form-checkbox{
+    margin-top: 10px;
+}
+
+/* admin page style */
+.user-info{
+    text-align: right;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:#303030;
+}
+
+.user-info button{
+    margin-left: 10px;
+}
+
+.user-info button a{
+    color: #ffffff;
+}
+
+.user-info button a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+}
+
+.total-message{
+    font-weight: bold;
+    font-size: 18px;
+    width: 960px;
+    margin: auto;
+}
+
+.total-message .message-number{
+    color: #ff7c3b;
+    display: inline-block;
+}
+
+.table-style{
+    width:960px;
+    margin: 30px auto;
+}
+
+.table-style .name{
+    width:150px;
+    text-align: center;
+    padding-top:14px;
+}
+
+.table-style .email{
+    width:220px;
+    text-align: center;
+    padding-top:14px;
+}
+
+.table-style .phone{
+    width:130px;
+    text-align: center;
+    padding-top:14px;
+}
+
+.table-style .message{
+    width:400px;
+    text-align: center;
+    padding-top:14px;
+}
+
+.table-style .delete{
+    width:100px;
+    text-align: center;
+}
+
+.delete-modal-title{
+    color: #b50000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.modal-warn{
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-dialog {
+    padding-top: 20%;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+}
+
+
+/*change datatable style are following*/
+table.dataTable tbody tr{
+    background:#303030;
+}
+
+/*number per page choice*/
+.dataTables_wrapper .dataTables_length{
+    color: #ffffff;
+}
+
+/*showing page 1 of ...*/
+.dataTables_wrapper .dataTables_info{
+    color: #ffffff;
+}
+
+/*search and input area*/
+.dataTables_wrapper .dataTables_filter{
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+/*paginate button*/
+.paginate_button{
+    margin-top:10px;
+    background: #000000;
+    font-weight:bold;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    /*color: #ffeace !important;*/
+    color: #ffffff !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current{
+    background: #3d3d3d !important;
+    border: none !important;
+    color: #ffffff !important;
+}
+
+select{
+    color: #000000;
+}
+
+.dataTables_wrapper .dataTables_info{
+    font-weight: bold;
+}
+
+input{
+    color: #000000;
+}
